@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karta Ma'lumotlari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="text-section">
+                <h1>Karta Ma'lumotlarini Kiriting</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form id="card-form">
+            <label for="card-number">Karta Raqami:</label>
+            <input type="text" id="card-number" name="card-number" required><br>
+            <label for="expiry-date">Amal Qilish Muddati:</label>
+            <input type="text" id="expiry-date" name="expiry-date" required><br>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required><br>
+            <button type="button" onclick="submitCardForm()">Yuborish</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

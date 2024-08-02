@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('background.jpg'); /* Orqa fon rasmi */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(150, 205, 241, 0.8); /* Shaffof fon */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo {
+    width: 150px; /* Kattalashtirish */
+    height: auto;
+    margin-right: 20px; /* O'ngga joy qoldirish */
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Shaffof oq fon */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label, form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
